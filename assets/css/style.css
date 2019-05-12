@@ -78,7 +78,7 @@ h3 {
 }
 
 nav {
-  float: right;
+  float: left;
   margin-top: 25px;
 }
 
@@ -133,6 +133,17 @@ h3, h2 {
   background: #ffffff;
   border: 1px solid #dddddd;
 }
+
+  .main-section2 {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+
+  }
 
 /* portfolio page */
 
@@ -228,23 +239,41 @@ input[type=submit] {
 /* call each chunk then re size the width and heights*/
 
 @media (max-width: 640px) {
+  
+  
   #masthead {
     margin: 0 0 10px;
     border-bottom: 1px solid #cccccc;
   }
 
   #logo {
-    width:100%;
+    width: 100%;
     height: 70px;
-    font-size: 25px;
-    
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 80px;
   }
 
   nav {
-    width: 100%;
-    height: 50px;
-    text-align: center;
+    float: left;
+    margin-top: 22px;
+    padding-left: 130px;
+  }
 
+  nav a {
+  padding-left: 10px;
+  margin-left: 10px;
+  line-height: 10px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+  }
+
+  /* main */
+
+  #main-container {
+    padding-top: 130px;
+   min-height: calc(98vh - 70px);
   }
 
   .main-section {
@@ -252,7 +281,6 @@ input[type=submit] {
     margin-left: 25px;
     max-width: 470px;
     max-height: 400px;
-
   }
 
   h1 {
@@ -262,6 +290,49 @@ input[type=submit] {
     border-bottom: 2px solid #dddddd;
   }
 
+  /* portfolio page */
+
+  #main-container2 {
+    padding-top: 130px;
+    min-height: calc(230vh - 70px);
+  }
+
+  .main-section2 {
+    margin-top: 30px;
+    margin-left: 25px;
+    max-width: 470px;
+    max-height: 1500px;
+
+  }
+  
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 10px 0 15px;
+  overflow: auto;
+}
+
+.work h3 {
+  bottom: 30px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 200;
+  line-height: 10px;
+
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+  /*contact form resizing*/
   #contact-form ul {
     margin-bottom: 10px;
   }
