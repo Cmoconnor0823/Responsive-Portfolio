@@ -241,6 +241,7 @@ input[type=submit] {
 @media (max-width: 640px) {
   
   
+  
   #masthead {
     margin: 0 0 10px;
     border-bottom: 1px solid #cccccc;
@@ -257,15 +258,13 @@ input[type=submit] {
   nav {
     float: left;
     margin-top: 22px;
-    padding-left: 130px;
+    padding-left: 190px;
   }
 
   nav a {
   padding-left: 10px;
   margin-left: 10px;
   line-height: 10px;
-  color: #999;
-  text-decoration: none;
   border-left: 1px solid #efefef;
   }
 
@@ -278,9 +277,9 @@ input[type=submit] {
 
   .main-section {
     margin-top: 30px;
-    margin-left: 25px;
+    margin-left: 85px;
     max-width: 470px;
-    max-height: 400px;
+    max-height: 1900px;
   }
 
   h1 {
@@ -295,14 +294,6 @@ input[type=submit] {
   #main-container2 {
     padding-top: 130px;
     min-height: calc(230vh - 70px);
-  }
-
-  .main-section2 {
-    margin-top: 30px;
-    margin-left: 25px;
-    max-width: 470px;
-    max-height: 1500px;
-
   }
   
 
@@ -365,9 +356,7 @@ input[type=submit] {
   input[type=submit] {
     padding: 5px 15px;
     font-size: 15px;
-    color: #ffffff;
-    cursor: pointer;
-    background: #4aaaa5;
+   
     border: 0 none;
   }
 }
