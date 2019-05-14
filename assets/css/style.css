@@ -233,15 +233,14 @@ input[type=submit] {
 }
 
 @media (max-width: 768px) {
+  
 
 }
 
 /* call each chunk then re size the width and heights*/
 
 @media (max-width: 640px) {
-  
-  
-  
+
   #masthead {
     margin: 0 0 10px;
     border-bottom: 1px solid #cccccc;
@@ -356,7 +355,6 @@ input[type=submit] {
   input[type=submit] {
     padding: 5px 15px;
     font-size: 15px;
-   
     border: 0 none;
   }
 }
